@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <meta name="theme-color" content="#1d3557" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="description" content="설원에서 곰을 사냥하고, 고기를 손질·구워 팔아 캠프를 키우는 3D 아이들 아케이드 게임" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet" />
+    <title>스노우 그릴</title>
+    <style>
+      html, body { margin: 0; height: 100%; background: #1d3557; overflow: hidden; }
+      #boot { position: fixed; inset: 0; display: flex; align-items: center; justify-content: center; color: #fff; font: 700 20px system-ui, 'Malgun Gothic', sans-serif; }
+    </style>
+  </head>
+  <body>
+    <div id="boot">로딩 중…</div>
+    <div id="stage"></div>
+    <div id="hud"></div>
+    <div id="title">
+      <div class="logo">스노우 그릴</div>
+      <div class="sub"></div>
+      <div class="tap">화면을 눌러 시작</div>
+      <div class="ver">v2.0 · 이동: WASD / 방향키 / 화면 드래그</div>
+    </div>
+    <script type="module" src="./src/main.ts"></script>
+  </body>
+</html>

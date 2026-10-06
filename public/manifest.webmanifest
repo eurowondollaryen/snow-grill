@@ -1,0 +1,10 @@
+{
+  "name": "스노우 그릴",
+  "short_name": "스노우 그릴",
+  "start_url": "./",
+  "display": "fullscreen",
+  "orientation": "portrait",
+  "background_color": "#1d3557",
+  "theme_color": "#1d3557",
+  "icons": [{ "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml" }]
+}
